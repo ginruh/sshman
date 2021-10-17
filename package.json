@@ -1,0 +1,42 @@
+{
+  "name": "sshman",
+  "version": "0.0.1",
+  "description": "Manage SSH connections",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js",
+    "test": "",
+    "test:watch": "jest --watch"
+  },
+  "bin": {
+    "sshman": "./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "ssh-manager"
+  ],
+  "author": {
+    "name": "iyorozuya",
+    "email": "iyaksha@tutanota.com",
+    "url": "https://github.com/iyorozuya"
+  },
+  "license": "GPL",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "esm": "^3.2.25",
+    "jsdoc": "^3.6.7",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.13"
+  }
+}
