@@ -23,7 +23,7 @@
     "email": "iyaksha@tutanota.com",
     "url": "https://github.com/iyorozuya"
   },
-  "license": "GPL",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "yargs": "^17.2.1"
